@@ -6,24 +6,26 @@ A full-stack web application for managing courses, built with the MERN stack usi
 
 ## 🚀 Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | React 18, Vite, React Router DOM |
-| **Backend** | Node.js, Express.js |
-| **Database** | SQLite (sql.js) |
-| **Authentication** | JWT (jsonwebtoken), bcryptjs |
-| **Validation** | express-validator |
-| **Styling** | Vanilla CSS (Modern Dark Theme) |
+| Layer              | Technology                       |
+| ------------------ | -------------------------------- |
+| **Frontend**       | React 18, Vite, React Router DOM |
+| **Backend**        | Node.js, Express.js              |
+| **Database**       | SQLite (sql.js)                  |
+| **Authentication** | JWT (jsonwebtoken), bcryptjs     |
+| **Validation**     | express-validator                |
+| **Styling**        | Vanilla CSS (Modern Dark Theme)  |
 
 ## ✨ Features
 
 ### Authentication
+
 - ✅ User Registration with validation
 - ✅ User Login with JWT token
 - ✅ Password hashing with bcryptjs
 - ✅ Protected routes for authenticated users
 
 ### Courses CRUD
+
 - ✅ Create new courses
 - ✅ View all courses with search functionality
 - ✅ View course details
@@ -31,6 +33,7 @@ A full-stack web application for managing courses, built with the MERN stack usi
 - ✅ Delete courses (authenticated)
 
 ### UI/UX
+
 - ✅ Modern dark theme with glassmorphism effects
 - ✅ Responsive design for all devices
 - ✅ Smooth animations and transitions
@@ -86,23 +89,26 @@ enegtec.ai/
 ## 🛠️ API Endpoints
 
 ### Authentication
-| Method | Endpoint | Description | Auth |
-|--------|----------|-------------|------|
-| POST | `/api/auth/register` | Register new user | No |
-| POST | `/api/auth/login` | Login user | No |
+
+| Method | Endpoint             | Description       | Auth |
+| ------ | -------------------- | ----------------- | ---- |
+| POST   | `/api/auth/register` | Register new user | No   |
+| POST   | `/api/auth/login`    | Login user        | No   |
 
 ### Courses
-| Method | Endpoint | Description | Auth |
-|--------|----------|-------------|------|
-| POST | `/api/courses` | Create course | Yes |
-| GET | `/api/courses` | Get all courses | No |
-| GET | `/api/course/:id` | Get single course | No |
-| PUT | `/api/course/:id` | Update course | Yes |
-| DELETE | `/api/course/:id` | Delete course | Yes |
+
+| Method | Endpoint          | Description       | Auth |
+| ------ | ----------------- | ----------------- | ---- |
+| POST   | `/api/courses`    | Create course     | Yes  |
+| GET    | `/api/courses`    | Get all courses   | No   |
+| GET    | `/api/course/:id` | Get single course | No   |
+| PUT    | `/api/course/:id` | Update course     | Yes  |
+| DELETE | `/api/course/:id` | Delete course     | Yes  |
 
 ## 🏃 How to Run Locally
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 
@@ -149,20 +155,30 @@ NODE_ENV=development
 ## 📸 Screenshots
 
 ### Home Page
+
 Modern landing page with hero section and features showcase.
 
 ### Courses List
+
 Browse all courses with search functionality and grid layout.
+![alt text](image.png)
 
 ### Login / Register
+
 Clean authentication forms with validation feedback.
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ### Course Management
+
 Create and edit courses with intuitive form interface.
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 ## 🚀 Deployment
 
 ### Backend (Render)
+
 1. Create a new Web Service on Render
 2. Connect your GitHub repository
 3. Set build command: `npm install`
@@ -170,6 +186,7 @@ Create and edit courses with intuitive form interface.
 5. Add environment variables
 
 ### Frontend (Vercel/Netlify)
+
 1. Connect your GitHub repository
 2. Set build command: `npm run build`
 3. Set publish directory: `dist`
